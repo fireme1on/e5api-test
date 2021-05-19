@@ -1,4 +1,4 @@
-name: E5 API TEST
+name: E5 Api Test
 
 on: 
   release:
