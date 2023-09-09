@@ -50,6 +50,7 @@ jobs:
         git config --global user.email test@debian.org
         git config --global user.name debian
         git add .
+        git pull
         git commit -m "update new token" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
